@@ -3,18 +3,68 @@
 }
 
 body{
-    background: rgb(11, 67, 75);
+    background-image: url("wp.png")
 }
-.jumborton{
-    width: 300px;
-    height: auto;
-    padding: 25px;
-    border-radius: 12px;
-    border: 3px solid black;
-    background: palegoldenrod;
-    color: black;
-    align-items: center;
+#head-container{
+    margin-top: 3%;
+}
+#head{
     text-align: center;
-    margin-top: 200px;
-    margin-left: 400px;
+    background: white;
+    color: rgb(11, 67, 75);
+    padding: 5%;
+    border: 1px solid black;
+
+}
+.panel-custom{
+    background-color: rgb(11, 67, 75) !important;
+    color: white !important;
+    width: 98%;
+    height: auto;
+    margin: 0 1% 0 1%;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 1%;
+    font-size: 18px;
+
+}
+table{
+    width: 98%;
+    margin: 0 1% 0 1%;
+}
+#table-data{
+    width: 98%;
+}
+
+th {
+    margin: 1% 1% 0 1%;
+    padding: 4% 4% 0 4%;
+    width: 2%;
+}
+
+hr{
+   margin: 3%; 
+   border: 1px solid rgb(11, 67, 75);
+}
+td{
+    margin: 1% 1% 0 1%;
+    padding: 4% 4% 0 4%;
+    width: 2%;
+
+}
+
+.glyphicon-remove{
+    color: rgb(11, 67, 75);
+    padding-left: 10%;
+
+}
+.form-control:focus {
+    border: 2px solid black;
+    box-shadow: inset 0 2px 2px black;
+}
+.panel-body{
+    margin: 1% 1% 1% 1%;
+    padding: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    border-radius: 2px;
 }
